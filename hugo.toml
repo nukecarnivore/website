@@ -1,4 +1,4 @@
-baseURL = 'https://68e047187eeccc00087f9a29--hchowart.netlify.app/'
+baseURL = 'https://hayatochow.com/portfolio/personalboards'
 languageCode = 'en-us'
 title = 'Home'
 theme = ['hugo-embed-pdf-shortcode', 'm10c']
