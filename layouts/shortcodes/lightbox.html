@@ -1,0 +1,10 @@
+<figure style="display:inline-block;">
+  <a href="#" onclick="openLightbox('{{ .Get "src" }}'); return false;">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="width: 400px; height:auto;">
+  </a>
+  {{ with .Get "caption" }}
+      <figcaption style="margin-top:8px; font-size:0.9em;">
+        {{ . }}
+      </figcaption>
+    {{ end }}
+</figure>

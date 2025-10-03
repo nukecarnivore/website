@@ -1,0 +1,66 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Home'
+theme = ['hugo-embed-pdf-shortcode', 'm10c']
+enableInlineShortcodes = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    author = 'hc'
+    avatar ='nametag.jpg'
+    favicon ='pfp.ico'
+
+    [params.style]
+    darkestColor = "#161616ff"
+    darkColor = "#373737ff"
+    lightColor = "#bd4f00ff"
+    lightestColor = "#d76b0dff"
+    primaryColor = "#ffffff"
+    
+    [[params.social]]
+    icon = "brand-linkedin"
+    name = "Linkedin"
+    url = "https://linkedin.com/in/hayatochow"
+
+    [[params.social]]
+    icon = "mail"
+    name = "Mail"
+    url = "mailto:hchow043@gmail.com"
+
+[menu]
+    [[menu.main]]
+    identifier = "Personalboards"
+    name = "Personal Boards"
+    url = "/portfolio/personalboards/"
+
+    [[menu.main]]
+    identifier = "Lifedrawings"
+    name = "Life Drawings"
+    url = "/portfolio/lifedrawings/"
+    weight = 1
+    
+    [[menu.main]]
+    identifier = "Professionalwork"
+    name = "Professional Work"
+    url = "/portfolio/professionalwork/"
+    weight = 2
+
+    [[menu.secondary]]
+    identifier = "About"
+    name = "About"
+    url = "/bio/about/"
+
+    [[menu.secondary]]
+    identifier = "Resume"
+    name = "Resume"
+    url = "/bio/resume/"
+    weight = 1
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
