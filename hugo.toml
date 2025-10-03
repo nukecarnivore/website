@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://68e047187eeccc00087f9a29--hchowart.netlify.app/'
 languageCode = 'en-us'
 title = 'Home'
 theme = ['hugo-embed-pdf-shortcode', 'm10c']
