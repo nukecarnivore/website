@@ -1,4 +1,4 @@
-baseURL = 'https://hayatochow.com/portfolio/personalboards'
+baseURL = 'https://hayatochow.com'
 languageCode = 'en-us'
 title = 'Home'
 theme = ['hugo-embed-pdf-shortcode', 'm10c']
