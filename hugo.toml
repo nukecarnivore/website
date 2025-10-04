@@ -16,7 +16,7 @@ enableInlineShortcodes = true
 
     [params.style]
     darkestColor = "#161616ff"
-    darkColor = "#373737ff"
+    darkColor = "#3d3d3dff"
     lightColor = "#bd4f00ff"
     lightestColor = "#d76b0dff"
     primaryColor = "#ffffff"
@@ -44,9 +44,9 @@ enableInlineShortcodes = true
     weight = 1
     
     [[menu.main]]
-    identifier = "Professionalwork"
-    name = "Professional Work"
-    url = "/portfolio/professionalwork/"
+    identifier = "Industrywork"
+    name = "Industry Work"
+    url = "/portfolio/industrywork/"
     weight = 2
 
     [[menu.secondary]]
