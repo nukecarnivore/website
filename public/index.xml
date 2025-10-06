@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Story Portfolio on hchow043@gmail.com</title><link>https://hayatochow.com/</link><description>Recent content in Story Portfolio on hchow043@gmail.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Sep 2025 04:20:10 -0700</lastBuildDate><atom:link href="https://hayatochow.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Industry Work</title><link>https://hayatochow.com/portfolio/industrywork/</link><pubDate>Sun, 28 Sep 2025 04:20:10 -0700</pubDate><guid>https://hayatochow.com/portfolio/industrywork/</guid><description>&lt;h2 id="nda-revisions--2025"&gt;NDA Revisions | 2025&lt;/h2&gt;
+&lt;p&gt;
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe
+ src="https://player.vimeo.com/video/1124324552?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;br&gt;
+
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe
+ src="https://player.vimeo.com/video/1124358148?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Resume</title><link>https://hayatochow.com/bio/resume/</link><pubDate>Sat, 27 Sep 2025 23:16:28 -0700</pubDate><guid>https://hayatochow.com/bio/resume/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'&gt;&lt;/script&gt;
+
+&lt;style&gt;
+ #embed-pdf-container {
+ position: relative;
+ width: 100%;
+ height: auto;
+ min-height: 20vh;
+ 
+ }
+ 
+ .pdf-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+ 
+ #the-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+ 
+ 
+ .pdf-loadingWrapper {
+ display: none;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 350px;
+ }
+ 
+ .pdf-loading {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ border: 3px solid #d2d0d0;;
+ border-radius: 50%;
+ border-top-color: #383838;
+ animation: spin 1s ease-in-out infinite;
+ -webkit-animation: spin 1s ease-in-out infinite;
+ }
+ 
+ 
+ 
+ 
+ 
+ #overlayText {
+ word-wrap: break-word;
+ display: grid;
+ justify-content: end;
+ }
+ 
+ #overlayText a {
+ position: relative;
+ top: 10px;
+ right: 4px;
+ color: #000;
+ margin: auto;
+ background-color: #eeeeee;
+ padding: 0.3em 1em;
+ border: solid 2px;
+ border-radius: 12px;
+ border-color: #00000030;
+ text-decoration: none;
+ }
+ 
+ #overlayText svg {
+ height: clamp(1em, 2vw, 1.4em);
+ width: clamp(1em, 2vw, 1.4em);
+ }
+ 
+ 
+ 
+ @keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ @-webkit-keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ &lt;/style&gt;&lt;div class="embed-pdf-container" id="embed-pdf-container-8556de25"&gt;
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-8556de25"&gt;
+ &lt;div class="pdf-loading" id="pdf-loading-8556de25"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div id="overlayText"&gt;
+ &lt;a href="https://hayatochow.com/Hayato_Chow.pdf" aria-label="Download" download&gt;
+ &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"&gt;
+ &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-8556de25"&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class="pdf-paginator" id="pdf-paginator-8556de25"&gt;
+ &lt;button id="pdf-prev-8556de25"&gt;Previous&lt;/button&gt;
+ &lt;button id="pdf-next-8556de25"&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+ &lt;span&gt;
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-8556de25"&gt;&lt;/span&gt; / &lt;span class="pdf-pagecount" id="pdf-pagecount-8556de25"&gt;&lt;/span&gt;
+ &lt;/span&gt;
+ &lt;a class="pdf-source" id="pdf-source-8556de25" href="https://hayatochow.com/Hayato_Chow.pdf"&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-8556de25" href="https://hayatochow.com/Hayato_Chow.pdf"&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type="text/javascript"&gt;
+ (function(){
+ var url = '\/Hayato_Chow.pdf';
+
+ var hidePaginator = "true" === "true";
+ var hideLoader = "" === "true";
+ var selectedPageNum = parseInt("") || 1;
+
+ 
+ var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+ 
+ if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+ pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hayatochow.com\/" + 'js/pdf-js/build/pdf.worker.js';
+
+ 
+ var pdfDoc = null,
+ pageNum = selectedPageNum,
+ pageRendering = false,
+ pageNumPending = null,
+ scale = 3,
+ canvas = document.getElementById('pdf-canvas-8556de25'),
+ ctx = canvas.getContext('2d'),
+ paginator = document.getElementById("pdf-paginator-8556de25"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-8556de25');
+
+
+ 
+ showPaginator();
+ showLoader();
+
+ 
+
+ function renderPage(num) {
+ pageRendering = true;
+ 
+ pdfDoc.getPage(num).then(function(page) {
+ var viewport = page.getViewport({scale: scale});
+ canvas.height = viewport.height;
+ canvas.width = viewport.width;
+
+ 
+ var renderContext = {
+ canvasContext: ctx,
+ viewport: viewport
+ };
+ var renderTask = page.render(renderContext);
+
+ 
+ renderTask.promise.then(function() {
+ pageRendering = false;
+ showContent();
+
+ if (pageNumPending !== null) {
+ 
+ renderPage(pageNumPending);
+ pageNumPending = null;
+ }
+ });
+ });
+
+ 
+ document.getElementById('pdf-pagenum-8556de25').textContent = num;
+ }
+
+ 
+
+ function showContent() {
+ loadingWrapper.style.display = 'none';
+ canvas.style.display = 'block';
+ }
+
+ 
+
+ function showLoader() {
+ if(hideLoader) return
+ loadingWrapper.style.display = 'flex';
+ canvas.style.display = 'none';
+ }
+
+ 
+
+ function showPaginator() {
+ if(hidePaginator) return
+ paginator.style.display = 'block';
+ }
+
+ 
+
+ function queueRenderPage(num) {
+ if (pageRendering) {
+ pageNumPending = num;
+ } else {
+ renderPage(num);
+ }
+ }
+
+ 
+
+ function onPrevPage() {
+ if (pageNum &lt;= 1) {
+ return;
+ }
+ pageNum--;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-prev-8556de25').addEventListener('click', onPrevPage);
+
+ 
+
+ function onNextPage() {
+ if (pageNum &gt;= pdfDoc.numPages) {
+ return;
+ }
+ pageNum++;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-next-8556de25').addEventListener('click', onNextPage);
+
+ 
+
+ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+ pdfDoc = pdfDoc_;
+ var numPages = pdfDoc.numPages;
+ document.getElementById('pdf-pagecount-8556de25').textContent = numPages;
+
+ 
+ if(pageNum &gt; numPages) {
+ pageNum = numPages
+ }
+
+ 
+ renderPage(pageNum);
+ });
+ })();
+&lt;/script&gt;</description></item><item><title>About</title><link>https://hayatochow.com/bio/about/</link><pubDate>Fri, 26 Sep 2025 14:44:08 -0700</pubDate><guid>https://hayatochow.com/bio/about/</guid><description>&lt;figure&gt;&lt;img src="https://hayatochow.com/images/PFP.jpg"
+ alt="pfp" width="400px"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Storyboard Artist based in Vancouver, B.C&lt;br&gt;
+who loves telling stories through art.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;He has nearly a year of industry experience&lt;br&gt;
+since graduating from Capilano University’s&lt;br&gt;
+2D Animation and Visual Development Diploma&lt;br&gt;
+in 2024.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Besides making art, he likes watching the Canucks to&lt;br&gt;
+raise his blood pressure, and has a knack for&lt;br&gt;
+testing if food has expired by eating it.&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Please feel free to reach out below
+&lt;br&gt;
+&lt;br&gt;
+&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href="mailto:hchow043@gmail.com"&gt; &lt;a href="mailto:hchow043@gmail.com"&gt;hchow043@gmail.com&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href="https://linkedin.com/in/hayatochow"&gt; linkedin.com/in/hayatochow&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Life Drawings</title><link>https://hayatochow.com/portfolio/lifedrawings/</link><pubDate>Fri, 26 Sep 2025 14:43:08 -0700</pubDate><guid>https://hayatochow.com/portfolio/lifedrawings/</guid><description>&lt;p&gt;&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/GESTURES.png'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/GESTURES.png" alt="1MIN" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/GESTURES2.png'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/GESTURES2.png" alt="2MIN" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;&lt;br&gt;
+&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/1-2MINPOSES.jpg'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/1-2MINPOSES.jpg" alt="1-2MIN" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/2-5MINPOSES.jpg'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/2-5MINPOSES.jpg" alt="2-5MIN" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;&lt;br&gt;
+Gestures | Mix of 30 second - 5 minute poses&lt;/p&gt;</description></item><item><title>Story Portfolio</title><link>https://hayatochow.com/portfolio/storyportfolio/</link><pubDate>Fri, 26 Sep 2025 13:00:38 -0700</pubDate><guid>https://hayatochow.com/portfolio/storyportfolio/</guid><description>&lt;h2 id="the-boat--2025"&gt;The Boat | 2025&lt;/h2&gt;
+&lt;p&gt;On a late, eerie night on the water, a boat emerges from the fog.
+ &lt;div class="speakerdeck-embed"&gt;
+ 
+ &lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e4cec50d985143e88b57a4263265d7a5" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 620px;" margin="0 auto"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;&lt;br&gt;
+Based off the horror role-playing adventure game &lt;a href="https://www.blacksaltgames.com/games/"&gt;&lt;em&gt;Dredge&lt;/em&gt;&lt;/a&gt; by Black Salt Games.&lt;/p&gt;
+&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/theboatsketches.jpg'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/theboatsketches.jpg" alt="Sketches" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+ &lt;figcaption style="margin-top:8px; font-size:0.9em;"&gt;
+ Development Sketches
+ &lt;/figcaption&gt;
+ 
+&lt;/figure&gt;
+&lt;figure style="display:inline-block;"&gt;
+ &lt;a href="#" onclick="openLightbox('\/images\/theboatthumbs.jpg'); return false;"&gt;
+ &lt;img src="https://hayatochow.com/images/theboatthumbs.jpg" alt="Thumbnails" style="width: 400px; height:auto;"&gt;
+ &lt;/a&gt;
+ 
+ &lt;figcaption style="margin-top:8px; font-size:0.9em;"&gt;
+ Thumbs
+ &lt;/figcaption&gt;
+ 
+&lt;/figure&gt;</description></item></channel></rss>
