@@ -6,7 +6,7 @@ title = 'About'
 
 {{< figure src="/PFP.jpg" alt="pfp" width="400px" >}} 
 
-Storyboard Artist/Revisionist based in Vancouver, B.C  
+Storyboard Artist based in Vancouver, B.C  
 who loves telling stories through art.<br>
 
 He's worked in the animation industry for almost  

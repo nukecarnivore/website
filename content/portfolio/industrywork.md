@@ -4,8 +4,6 @@ draft = false
 title = 'Industry Work'
 +++
 
-## Unicorn Academy | 2025
+## NDA Revisions | 2025
 {{< vimeo 1124324552 >}}  
-{{< vimeo 1124358148 >}}  
-<br>
-Revisions done on Unicorn Academy
+{{< vimeo 1124358148 >}}

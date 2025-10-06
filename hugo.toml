@@ -1,6 +1,6 @@
 baseURL = 'https://hayatochow.com'
 languageCode = 'en-us'
-title = 'Home'
+title = 'hchow043@gmail.com'
 theme = ['hugo-embed-pdf-shortcode', 'm10c']
 enableInlineShortcodes = true
 
@@ -10,7 +10,7 @@ enableInlineShortcodes = true
       unsafe = true
 
 [params]
-    author = 'hc'
+    author = 'Hayato Chow'
     avatar ='nametag.jpg'
     favicon ='pfp.ico'
 
@@ -33,21 +33,23 @@ enableInlineShortcodes = true
 
 [menu]
     [[menu.main]]
-    identifier = "Personalboards"
-    name = "Personal Boards"
-    url = "/portfolio/personalboards/"
-
+    identifier = "Storyportfolio"
+    name = "Story Portfolio"
+    url = "/portfolio/storyportfolio/"
+    weight = 1
+    
     [[menu.main]]
     identifier = "Lifedrawings"
     name = "Life Drawings"
     url = "/portfolio/lifedrawings/"
-    weight = 1
-    
+    weight = 3    
+
     [[menu.main]]
     identifier = "Industrywork"
     name = "Industry Work"
     url = "/portfolio/industrywork/"
     weight = 2
+
 
     [[menu.secondary]]
     identifier = "About"

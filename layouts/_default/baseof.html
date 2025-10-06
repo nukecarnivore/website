@@ -35,6 +35,7 @@ function openLightbox(src) {
   <body>
     <header class="app-header">
       <a href="/portfolio/personalboards"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
+       <span class="app-header-title">{{ .Site.Title }}</span>
       {{- with .Site.Menus.main }}
       <nav class="app-header-menu">
         {{- range $key, $item := . }}
