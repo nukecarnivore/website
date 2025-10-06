@@ -9,9 +9,10 @@ title = 'About'
 Storyboard Artist based in Vancouver, B.C  
 who loves telling stories through art.<br>
 
-He's worked in the animation industry for almost  
-a year soon after graduating from Capilano University's  
-2D Animation and Visual Development Diploma.<br>
+He has nearly a year of industry experience  
+since graduating from Capilano University’s  
+2D Animation and Visual Development Diploma  
+in 2024.<br>
 
 Besides making art, he likes watching the Canucks to  
 raise his blood pressure, and has a knack for  
