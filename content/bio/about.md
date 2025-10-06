@@ -4,7 +4,7 @@ draft = false
 title = 'About'
 +++
 
-{{< figure src="/PFP.jpg" alt="pfp" width="400px" >}} 
+{{< figure src="/images/PFP.jpg" alt="pfp" width="400px" >}} 
 
 Storyboard Artist based in Vancouver, B.C  
 who loves telling stories through art.<br>
