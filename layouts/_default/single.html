@@ -1,6 +1,7 @@
 {{ define "main" }}
   <article class="post">
     <header class="post-header">
+      <link rel="shortcut icon" href="{{ .Site.Params.favicon | default "/favicon.ico" }}" />
       <h1 class ="post-title">{{ .Title }}</h1>
       {{- if ne .Type "page" }}
       <div class="post-meta">

@@ -4,6 +4,6 @@ draft = false
 title = 'Industry Work'
 +++
 
-## NDA Revisions | 2025
-{{< vimeo 1124324552 >}}  
+## NDA Revisions | 2025  
+### Please email me at <u><a href="mailto.hchow043@gmail.com"> hchow043@gmail.com</a></u> for access. 
 {{< vimeo 1124358148 >}}

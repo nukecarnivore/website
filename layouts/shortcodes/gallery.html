@@ -1,0 +1,76 @@
+{{- $images:= split (.Get "images") "," -}}
+
+<div class="gallery-row">
+  {{- range $i, $img := $images -}}
+    {{ if modBool $i 4 }}<div class="gallery-column">{{ end }}
+      <img src="{{ $img | safeURL }}" alt="Gallery image {{ add $i 1 }}">
+    {{ if or (eq (mod (add $i 1) 4) 0) (eq (add $i 1) (len $images)) }}</div>{{ end }}
+  {{- end -}}
+</div>
+
+<div id="lightbox" class="lightbox-overlay">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-arrow left">&#10094;</span>
+  <img id="lightbox-img" src="" alt="">
+  <span class="lightbox-arrow right">&#10095;</span>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll(".gallery-column img");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const closeBtn = document.querySelector(".lightbox-close");
+  const prevBtn = document.querySelector(".lightbox-arrow.left");
+  const nextBtn = document.querySelector(".lightbox-arrow.right");
+  let currentIndex = 0;
+
+  function showImage(index) {
+    if (index < 0) index = images.length - 1;
+    if (index >= images.length) index = 0;
+    currentIndex = index;
+    lightboxImg.src = images[currentIndex].src;
+    lightbox.classList.add("active");
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightboxImg.src = ""; // reset image
+  }
+
+  // click to open
+  images.forEach((img, index) => {
+    img.addEventListener("click", (e) => {
+      e.stopPropagation();
+      showImage(index);
+    });
+  });
+
+  // close via X or outside
+  closeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    closeLightbox();
+  });
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  // arrows
+  prevBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    showImage(currentIndex - 1);
+  });
+  nextBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    showImage(currentIndex + 1);
+  });
+
+  // keyboard nav (no ESC)
+  document.addEventListener("keydown", (e) => {
+    if (!lightbox.classList.contains("active")) return;
+    if (e.key === "ArrowLeft") showImage(currentIndex - 1);
+    if (e.key === "ArrowRight") showImage(currentIndex + 1);
+  });
+});
+</script>
+

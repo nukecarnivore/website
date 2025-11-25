@@ -1,0 +1,31 @@
+<div class="LDcontainer">
+  <img id="expandedImg">
+</div>
+
+<div class="row">
+  {{ $images := split (.Get "src") "," }}
+  {{ range $i, $img := $images }}
+  <div class="LD-item">
+      <img src="{{ $img }}" alt="" class="LD-img">
+  </div>
+  {{ end }}
+</div>
+
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  const expandImg = document.getElementById("expandedImg");
+  const LDImgs = document.querySelectorAll(".LD-img");
+
+  // Auto-load first image
+  if(LDImgs.length > 0) {
+    expandImg.src = LDImgs[0].src;
+  }
+
+  // Add click handler to all thumbnails
+  LDImgs.forEach(img => {
+    img.addEventListener('click', function() {
+      expandImg.src = img.src;
+    });
+  });
+});
+</script>
