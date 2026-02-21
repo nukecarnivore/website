@@ -1,4 +1,4 @@
-baseURL = 'https://chowdown.com'
+baseURL = 'https://hayatochow.com'
 languageCode = 'en-us'
 title = 'hchow043@gmail.com'
 theme = ['hugo-embed-pdf-shortcode', 'm10c']
