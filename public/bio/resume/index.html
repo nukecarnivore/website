@@ -162,36 +162,36 @@ function openLightbox(src) {
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-8556de25">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-8556de25">
-        <div class="pdf-loading" id="pdf-loading-8556de25"></div>
+  </style><div class="embed-pdf-container" id="embed-pdf-container-95aaee8f">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-95aaee8f">
+        <div class="pdf-loading" id="pdf-loading-95aaee8f"></div>
     </div>
     <div id="overlayText">
-      <a href="/Hayato_Chow.pdf" aria-label="Download" download>
+      <a href="/HayatoChow_Resume.pdf" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
         </svg>
       </a>
     </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-8556de25"></canvas>
+    <canvas class="pdf-canvas" id="pdf-canvas-95aaee8f"></canvas>
 </div>
 
-<div class="pdf-paginator" id="pdf-paginator-8556de25">
-    <button id="pdf-prev-8556de25">Previous</button>
-    <button id="pdf-next-8556de25">Next</button> &nbsp; &nbsp;
+<div class="pdf-paginator" id="pdf-paginator-95aaee8f">
+    <button id="pdf-prev-95aaee8f">Previous</button>
+    <button id="pdf-next-95aaee8f">Next</button> &nbsp; &nbsp;
     <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-8556de25"></span> / <span class="pdf-pagecount" id="pdf-pagecount-8556de25"></span>
+      <span class="pdf-pagenum" id="pdf-pagenum-95aaee8f"></span> / <span class="pdf-pagecount" id="pdf-pagecount-95aaee8f"></span>
     </span>
-    <a class="pdf-source" id="pdf-source-8556de25" href="/Hayato_Chow.pdf">[pdf]</a>
+    <a class="pdf-source" id="pdf-source-95aaee8f" href="/HayatoChow_Resume.pdf">[pdf]</a>
 </div>
 
 <noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="/Hayato_Chow.pdf">here</a>.
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-95aaee8f" href="/HayatoChow_Resume.pdf">here</a>.
 </noscript>
 
 <script type="text/javascript">
     (function(){
-    var url = '\/Hayato_Chow.pdf';
+    var url = '\/HayatoChow_Resume.pdf';
 
     var hidePaginator = "true" === "true";
     var hideLoader = "" === "true";
@@ -210,10 +210,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-8556de25'),
+        canvas = document.getElementById('pdf-canvas-95aaee8f'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-8556de25"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-8556de25');
+        paginator = document.getElementById("pdf-paginator-95aaee8f"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-95aaee8f');
 
 
     
@@ -251,7 +251,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="
       });
 
       
-      document.getElementById('pdf-pagenum-8556de25').textContent = num;
+      document.getElementById('pdf-pagenum-95aaee8f').textContent = num;
     }
 
     
@@ -295,7 +295,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-8556de25').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-95aaee8f').addEventListener('click', onPrevPage);
 
     
 
@@ -306,14 +306,14 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-8556de25').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-95aaee8f').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-8556de25').textContent = numPages;
+      document.getElementById('pdf-pagecount-95aaee8f').textContent = numPages;
 
       
       if(pageNum > numPages) {
@@ -336,7 +336,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-8556de25" href="
     </main>
     <footer>
     <p class = "post-footer">
-        © 2025 Hayato Chow
+        © 2026 Hayato Chow
     </p>
 </footer>
   </body>

@@ -4,4 +4,4 @@ draft = false
 title = 'Resume'
 +++
 
-{{< embed-pdf url="/Hayato_Chow.pdf" hidePaginator="true" >}}
+{{< embed-pdf url="/HayatoChow_Resume.pdf" hidePaginator="true" >}}
